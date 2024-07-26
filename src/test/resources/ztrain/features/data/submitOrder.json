@@ -1,0 +1,42 @@
+{
+  "user_id": "6644fa43ca40e6ce66225722",
+  "address": "douala makepe",
+  "card": {
+    "number": 4000000000001091,
+    "exp_month": 1,
+    "exp_year": 2025,
+    "cvc": "314"
+  },
+  "products": [{
+    "quantity": 5,
+    "product": {
+      "name": "Samsung Note 12jlsjsdqsdcaaabbbec",
+      "description": " Samsung Note 11 description, Samsung Note 9 description Samsung Note 9 description Samsung Note 9 description",
+      "image": [
+        "https://image.png",
+        "https://image.png",
+        "https://image.png"
+      ],
+      "price": 10,
+      "comments": [],
+      "isActive": false,
+      "category": "625d70ef3f538325fe268e56",
+      "promotion": "6283b33d0effaba5dd6a94fc",
+      "attributs": {
+        "colors": [
+          "green"
+        ],
+        "height": [
+          "M",
+          "L"
+        ],
+        "_id": "66472f5f53ffc1fb7f29a0ba"
+      },
+      "createAt": "2024-05-17T10:19:32.732Z",
+      "_id": "66472f5f53ffc1fb7f29a0b9",
+      "__v": 0,
+      "id": "66472f5f53ffc1fb7f29a0b9"
+    }
+  }],
+  "shipping_method": "627ce1b06ba58352b9229552"
+}

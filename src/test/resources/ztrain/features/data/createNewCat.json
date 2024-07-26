@@ -1,0 +1,15 @@
+
+{
+  "name": "Smartphone Ultimate Genération",
+  "description": "Samsung Galaxy max dernière génération avec distributeur automatique de cafè :) ",
+  "image":["https://image.png", "https://image.png", "https://image.png"],
+  "price": 1000,
+  "requestId": 12345,
+  "isActive": true,
+  "code famille": "Hi-tech",
+  "promotion": "Best deals",
+  "attributs": {
+    "type": ["Smartphone"],
+    "storage": ["Ram", "HD"]
+  }
+}

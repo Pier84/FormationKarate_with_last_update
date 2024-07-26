@@ -1,0 +1,14 @@
+{
+  "designation": "Livraison à domicile ",
+  "description": "la livraison se fera à l'adresse fourni dans la commande. En cas d'absence nous déclinons toutes responsabilités",
+  "image":["https://image.png", "https://image.png", "https://image.png"],
+  "price": 10,
+  "requestId": 12345,
+  "isActive": false,
+  "category": "",
+  "promotion": "",
+  "attributs": {
+    "type": ["Transporteur"],
+    "Contract": ["F", "I"]
+  }
+}

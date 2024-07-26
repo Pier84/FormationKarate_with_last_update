@@ -1,0 +1,14 @@
+{
+  "name": "Samsung Note 11 version ultimate",
+  "description": " Samsung Note 11 description, Samsung Note 9 description Samsung Note 9 description Samsung Note 9 description",
+  "image":["https://image.png", "https://image.png", "https://image.png"],
+  "price": 10,
+  "requestId": 12345,
+  "isActive": false,
+  "category": "625d70ef3f538325fe268e56",
+  "promotion": "6283b33d0effaba5dd6a94fc",
+  "attributs": {
+    "colors": ["green"],
+    "height": ["M", "L"]
+  }
+}
