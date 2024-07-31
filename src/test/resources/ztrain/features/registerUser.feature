@@ -3,12 +3,11 @@ Feature: Register new user
 
   Background:
 
-    # Je stock dans la variable req le fichier à passer dans le body de ma requete Post
+    # Je stock dans la variable req le fichier Ã  passer dans le body de ma requete Post
     * def req = read ('classpath:ztrain/features/data/registerUser.json')
-    # J'indique l'url qui va etre utilisé pour tous les scénarios de cette feature en faisant référence à la variable one.url spécifié dans le karate-config.js
+    # J'indique l'url qui va etre utilisÃ© pour tous les scÃ©narios de cette feature en faisant rÃ©fÃ©rence Ã  la variable one.url spÃ©cifiÃ© dans le karate-config.js
     * url BaseUrl
-    * def RandomEmail = Java.type('Uuid.
-  ')
+    * def RandomEmail = Java.type('Uuid.MyRandomEmail')
     # Je stock dans la variable PUnique une chaine de caracteres al?atoire
     * def Email = RandomEmail.generateRandomEmail()
     * print Email
@@ -24,7 +23,7 @@ Feature: Register new user
   Scenario: registerUser
 
 
-    # Remarquez que ce n'est plus nécessaire d'indiquer l'url mais juste le path
+    # Remarquez que ce n'est plus nÃ©cessaire d'indiquer l'url mais juste le path
     Given path '/user/register'
     And header Content-Type = 'application/json'
     And header accept = 'application/json'
